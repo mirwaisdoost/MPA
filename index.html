@@ -1,0 +1,437 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,  initial-scale=1">
+        <link rel="stylesheet" href="./styles/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="./styles/fonts/OpenSans-Bold.ttf">
+        <link rel="stylesheet" href="./styles/fonts/OpenSans-Regular.ttf">
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/style.css">  
+        <link rel="shortcut icon" type="image/jpg" href="./images/logo.PNG"/>
+        <title>Home page - MPA Pharma GmBH</title>
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="r-navagation">
+                <div class="r-navagation-content">
+                    <div class="logo">
+                        <img onclick="menue()" src="./images/Capture.PNG" >
+                    </div>
+                    <a href="#" class="button" onclick="menue();">X</a>
+                    <a href="#" class="toggle" onclick="menue();"><div><hr><hr><hr></div></a>
+                </div>
+                <div class="r-navagation-menue-content">
+                    <div class="r-navagation-menue">
+                        <a href="#" class="menue-subitem"><div class="menue-item">company</div></a>                       
+                        <a href="#" class="menue-subitem"><div class="menue-item">services</div></a>                       
+                        <a href="#" class="menue-subitem"><div class="menue-item">press</div></a>                       
+                        <a href="#" class="menue-subitem"><div class="menue-item">careers</div></a>                       
+                        <a href="#" class="menue-subitem"><div class="menue-item">locations</div></a>                         
+                        <div class="r-navagation-search">
+                            <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <div class="r-navagation-language">
+                                <a href="#">DE <i class="fa fa-flag-checkered" aria-hidden="true"></i></a>
+                                <a href="#">EN <i class="fa fa-flag" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="logo">
+                    <img src="./images/Capture.PNG" >
+                </div>
+                <div class="memue">
+                    <ul role="menubar">
+                        <li><a href="#" id="1" class="menuebar-item">company <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                        <li><a href="#" id="2" class="menuebar-item">services <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                        <li><a href="#" id="3" class="menuebar-item">press <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                        <li><a href="#" id="4" class="menuebar-item">careers <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                        <li><a href="#" id="5" class="menuebar-item">locations <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <a href="#">DE <i class="fa fa-flag-checkered" aria-hidden="true"></i></a>
+                    <a href="#">EN <i class="fa fa-flag" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="submenue">
+                <div class="submenue-content" id="sub-1">
+                    <div class="sub-item">
+                        <a href="#"><div class="submenue-item">About us</div></a>
+                        <a href="#"><div class="submenue-item">About the group</div></a>
+                        <a href="#"><div class="submenue-item">Management</div></a>
+                        <a href="#"><div class="submenue-item">Guiding principles</div></a>
+                        <a href="#"><div class="submenue-item">Milestones</div></a>
+                        <a href="#"><div class="submenue-item">Business Partners</div></a>
+                    </div>
+                </div>
+                <div class="submenue-content" id="sub-2">
+                    <div class="sub-item">
+                        <a href="#"><div class="submenue-item">Attractively priced originals</div></a>
+                        <a href="#"><div class="submenue-item">Group business areas</div></a>
+                        <a href="#"><div class="submenue-item">Safety and quality</div></a>
+                        <a href="#"><div class="submenue-item">Falsified Medicines Directive</div></a>
+                        <a href="#"><div class="submenue-item">Questions & answers</div></a>
+                    </div>
+                </div>
+                <div class="submenue-content" id="sub-3">
+                    <div class="sub-item">
+                        <a href="#"><div class="submenue-item">Information</div></a>
+                        <a href="#"><div class="submenue-item">News</div></a>
+                        <a href="#"><div class="submenue-item">Downloads</div></a>
+                    </div>
+                </div>
+                <div class="submenue-content" id="sub-4">
+                    <div class="sub-item">
+                        <a href="#"><div class="submenue-item">MPA Pharma as an employer</div></a>
+                        <a href="#"><div class="submenue-item">We are MPA Pharma</div></a>
+                        <a href="#"><div class="submenue-item">Job Profiles</div></a>
+                        <a href="#"><div class="submenue-item">Apparenticeship Opportunities</div></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="content">
+            <div class="slider">
+                <div class="cerlce-content">
+                    <div class="circle-container">
+                        <a href="#"><div class="circle" onclick="carousel_control(this.id);" id="0"></div></a>
+                        <a href="#"><div class="circle" onclick="carousel_control(this.id);" id="1"></div></a>
+                        <a href="#"><div class="circle" onclick="carousel_control(this.id);" id="2"></div></a>
+                        <a href="#"><div class="circle" onclick="carousel_control(this.id);" id="3"></div></a>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <div class="image-container">
+                        <div><a href="#"><img src="./images/slider-1.PNG" id="image" class="image"></a></div>
+                        <div><a href="#"><img src="./images/slider-2.PNG" id="image" class="image"></a></div>
+                        <div><a href="#"><img src="./images/slider-3.PNG" id="image" class="image"></a></div>
+                        <div><a href="#"><img src="./images/slider-4.PNG" id="image" class="image"></a></div>
+                        <div><a href="#"><img src="./images/slider-1.PNG" id="image" class="image"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="container">
+                    <h1>MPA Pharma – market-leading expertise in the import and trade of high-quality pharmaceuticals</h1>
+                    <p>As a dynamically developing company with an international footprint, the MPA Pharma group's core activities are in the reimport and parallel import of EU medicinal products, trade with pharmaceuticals and medical devices, as well as contract manufacturing services for third parties. As a market leader we have 35 years of excellence and expertise in the pharmaceuticals market.</p>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>NEWS</h3>
+                            <h2><a href="#">New studies on cost savings through medicine imports in EU countries</a></h2>
+                        </div>
+                        <div class="card-image">
+                            <a href="#"><img src="./images/Study-Savings-from-Parallel-Imports-in-Europe_2020-11.jpg"></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Medicine imports generate significant cost savings and help to overcome medicine delivery bottlenecks. European Association of Euro-Pharmaceutical Companies, EAEPC, has been renamed to 'Affordable Medicines Europe'.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#">READ MORE ...</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>CREERS</h3>
+                            <h2><a href="#">Join the MPA Pharma team!</a></h2>
+                        </div>
+                        <div class="card-image">
+                            <a href="#"><img src="./images/Einkäufer.jpg"></a>
+                        </div>
+                        <div class="card-content">
+                            <p> As a dynamically developing company with an international footprint we are constantly looking for skilled, motivated people to join our team.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#">READ MORE ...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box-grid">
+                    <div class="box">
+                        <a href="#"><img src="./images/Box_MPA_Home-337a5de2.png"></a>
+                        <h1><a href="#">About MPA Pharma</a></h1>
+                        <p>Our business model includes the import and distribution of patented and non-patented products, generic products, over-the-counter EU medicinal products, narcotic drugs and medical devices, as well as trade with high-quality pharmaceuticals and medical devices, and contract manufacturing services for third parties.</p>
+                    </div>
+                    <div class="box">
+                        <a href="#"><img src="./images/FAQ-fefb661b.png"></a>
+                        <h1><a href="#">Questions & Answers</a></h1>
+                        <a href="#">Do you have questions about the import and trade of pharmaceuticals, our contract manufacturing portfolio, or our company in general? We have put together some answers to the most frequently asked questions.</a>
+                    </div>
+                    <div class="box">
+                        <a href="#"><img src="./images/telefon-8888bd88.png"></a>
+                        <h1><a href="#">Here to help</a></h1>
+                        <a href="#">Would you like to get in touch with us? Please use our country and profile finder to see which company is best suited to your needs.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="card-container">
+                    <div class="card-sm">
+                        <h3>SERVICES</h3>
+                        <h2>Established as a pharmaceuticals manufacturer for 35 years</h2>
+                        <a href="#"><img src="./images/geschaeftsfelder-en-statische-grafik.svg"></a>
+                    </div>
+                    <div class="card-sm">
+                        <h3>SAFETY AND QUALITY</h3>
+                        <h2>MPA Pharma stands for premium quality and professionalism</h2>
+                        <img src="./images/Kuehlung.png">
+                        <p>MPA Pharma is an authorized manufacturer of pharmaceuticals and hence  subject to the highest quality assurance standards. Our safety measures begin in the business partner selection process, where we use audits to ensure…</p>
+                        <div class="card-footer">
+                            <a href="#">READ MORE ...</a>
+                        </div>
+                    </div>
+                    <div class="card-sm">
+                        <h3>VIDEO</h3>
+                        <h2>MPA Pharma and EMRAmed Corporate Video</h2>
+                        <div>
+                            <iframe src="http://mpapharma.com/files/media/emramed/download-seite/EMRAMED_Imagefilm_ENG_EMRAMED_Logo_HQ.mp4" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <footer id="footer">
+           <div class="content">
+               <div class="card-container">
+                    <dvi class="footer-card">
+                        <pre>
+<strong>MPA Pharma GmbH</strong>
+
+Otto-Hahn-Straße 11
+22946 Trittau
+Germany
+Phone: +49 4154 806-0
+Fax: +49 4154 806-114
+E-Mail: Office@MPAPharma.de
+Internet: MPAPharma.com
+                        </pre>
+                    </dvi>
+                    <dvi class="footer-card">
+                        <a href="#"><strong>COMPANY</strong></a>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">About the group</a></li>
+                            <li><a href="#">Management</a></li>
+                            <li><a href="#">Guiding principles</a></li>
+                            <li><a href="#">Milestones</a></li>
+                            <li><a href="#">Business Partners</a></li>
+                        </ul>
+                    </dvi>
+                    <dvi class="footer-card">
+                        <a href="#"><strong>SERVICES</strong></a>
+                        <ul>
+                            <li><a href="#">Attractively priced originals</a></li>
+                            <li><a href="#">Group business areas</a></li>
+                            <li><a href="#">Safety and quality</a></li>
+                            <li><a href="#">Falsified Medicines Directive</a></li>
+                            <li><a href="#">Questions & answers</a></li>
+                        </ul>
+                    </dvi>
+                    <dvi class="footer-card">
+                        <a href="#"><strong>PRESS</strong></a>
+                        <ul>
+                            <li><a href="#">Information</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </dvi>
+                    <dvi class="footer-card">
+                        <a href="#"><strong>CAREERS</strong></a>
+                        <ul>
+                            <li><a href="#">MPA Pharma as an employer</a></li>
+                            <li><a href="#">We are MPA Pharma</a></li>
+                            <li><a href="#">Safety and quality</a></li>
+                            <li><a href="#">Job Profiles</a></li>
+                            <li><a href="#">Apprenticeship Opportunities</a></li>
+                        </ul>
+                    </dvi>
+                    <dvi class="footer-card">
+                        <a href="#"><strong>LOCATIONS</strong></a>
+                    </dvi>
+               </div>
+               <hr class="line">
+               <div class="footer-container">
+                    <div class="footer-left-container">
+                        <div class="footer-box">
+                            <div><a href="#"><img src="./images/EMRAmed_Logo_Website.jpg" alt=""></a></div>
+                        </div>
+                        <div class="footer-left-box">
+                            <div><a href="#">EMRAmed is a distribution subsidiary of MPA Pharma in Germany and Austria.</a></div>
+                        </div> 
+                        <div class="footer-box">
+                            <div><a href="#"><img src="./images/Paranova_Logo_Website.jpg" alt=""></a></div>
+                        </div>
+                        <div class="footer-left-box">
+                            <div><a href="#">Paranova is a distribution subsidiary of MPA Pharma in Scandinavia.</a></div>
+                        </div>   
+                    </div>
+                    <div class="footer-right-container">
+                        <div class="footer-box">
+                            <div><i class="fa fa-xing" aria-hidden="true"></i><a href="#"> Follow us on Xing</a></div>
+                            <div><i class="fa fa-linkedin" aria-hidden="true"></i><a href="#"> Follow us on LinkedIn</a></div>
+                        </div>
+                        <div class="footer-box" id="contact"><a href="#"><strong>CONTANCT US</strong></a></div>
+                        <div class="footer-box" id="legal"><a href="#"><strong>LEGAL NOTICE</strong></a></div>
+                        <div class="footer-box" id="data"><a href="#"><strong>DATA PROTICTION DECLARATION</strong></a></div>                            
+                    </div>
+                </div>
+           </div>
+        <div>
+            <p style="margin-left: 75px; color: white; font-weight: bolder;">Designed by: Mirwais Doost</p>
+        </div>
+       </footer>
+    </body>
+    
+    <script type='text/javascript'>
+
+        var id=0;
+        var left=0;
+        carousel();
+        
+        function carousel(){
+            var timer=7000;
+            var img = document.getElementsByClassName("image-container");
+            var c = document.getElementsByClassName("circle");
+
+            img[0].style.transition="transform .5s ease-in";
+            if(left==-100){
+                img[0].style.transition="transform 0s ease-in";
+                left=0;
+                id=0;
+            }
+
+            if(left==-80){
+                id=0;
+            }
+
+            if(left<-60 || left==0){
+                timer=3500;
+            }
+
+            for(i=0;i<c.length;i++){
+                c[i].style.background="transparent";
+            }
+
+            img[0].style.transitionduration=".5s";
+            img[0].style.transitiontimingfunction="ease-in"
+            img[0].style.transform="translateX("+left+"%)";
+            c[id].style.background="white";
+            left-=20;
+            id++;
+
+            setTimeout(carousel, timer);
+        }
+
+        function carousel_control(p){
+            var img = document.getElementsByClassName("image-container");
+            var c = document.getElementsByClassName("circle");
+
+            for(i=0;i<c.length;i++){
+                c[i].style.background="transparent";
+            }
+            c[p].style.background="white";
+
+            if(p==0){
+                left=0;
+            }            
+            else if(p==1){
+                left=-20;
+            }                
+            else if(p==2){
+                left=-40;
+            }                
+            else if(p==3){
+                left=-60;
+            }
+               
+            img[0].style.transition="transform .5s ease-in";
+            img[0].style.transitionduration=".5s";
+            img[0].style.transitiontimingfunction="ease-in"
+            img[0].style.transform="translateX("+left+"%)";
+        }
+
+        function menue(){
+
+            var content=document.getElementsByClassName("r-navagation-menue-content");
+            if(content[0].style.display=="block"){
+                content[0].style.display="none";
+                document.getElementsByClassName("button")[0].style.display="none";
+                document.getElementById("content").style.display="block";
+                document.getElementById("footer").style.display="block";
+                document.getElementsByClassName("toggle")[0].style.display="block";
+                document.getElementById("header").style.height="95px";
+                document.getElementsByClassName("r-navagation")[0].style.height="initial";
+            }else{
+                content[0].style.display="block";
+                document.getElementById("content").style.display="none";
+                document.getElementById("footer").style.display="none";
+                document.getElementsByClassName("toggle")[0].style.display="none";
+                document.getElementsByClassName("button")[0].style.display="block";
+                document.getElementById("header").style.height="100%";
+                document.getElementsByClassName("r-navagation")[0].style.height="inherit";
+                document.getElementsByClassName("r-navagation-menue-content")[0].style.transitionduration=".3s";
+                document.getElementsByClassName("r-navagation-menue-content")[0].style.transitiontimingfunction="ease-in";
+                document.getElementsByClassName("r-navagation")[0].style.overflowY="auto";
+            }
+        }
+
+
+        //The responsive mobile menue
+        var menuebarItem=document.getElementsByClassName("menuebar-item");
+        var subMenue=document.getElementsByClassName("submenue");
+        var subMenueItem=document.getElementsByClassName("submenue-content");
+        
+        menuebarItem[0].onmouseover=function(){
+            subMenue[0].style.visibility="visible";
+            subMenueItem[0].style.display="block";
+            subMenueItem[1].style.display="none";
+            subMenueItem[2].style.display="none";
+            subMenueItem[3].style.display="none";
+        }   
+
+        menuebarItem[1].onmouseover=function(){
+            subMenue[0].style.visibility="visible";
+            subMenueItem[0].style.display="none";
+            subMenueItem[1].style.display="block";
+            subMenueItem[2].style.display="none";
+            subMenueItem[3].style.display="none";
+        } 
+
+        menuebarItem[2].onmouseover=function(){
+            subMenue[0].style.visibility="visible";
+            subMenueItem[0].style.display="none";
+            subMenueItem[1].style.display="none";
+            subMenueItem[2].style.display="block";
+            subMenueItem[3].style.display="none";
+        } 
+
+        menuebarItem[3].onmouseover=function(){
+            subMenue[0].style.visibility="visible";
+            subMenueItem[0].style.display="none";
+            subMenueItem[1].style.display="none";
+            subMenueItem[2].style.display="none";
+            subMenueItem[3].style.display="block";
+        } 
+
+        menuebarItem[4].onmouseover=function(){
+            subMenue[0].style.visibility="hidden";
+        }
+
+        document.getElementById("content").onmouseout=function(){
+            subMenue[0].style.visibility="hidden";
+        }
+
+    </script>   
+
+</html>
+
